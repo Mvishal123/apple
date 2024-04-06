@@ -8,10 +8,10 @@ const Navbar = () => {
         <a href="/">
           <img src={appleImg} alt="apples" height={18} width={18} />
         </a>
-        <div className="hidden sm:flex items-center gap-4">
+        <div className="hidden sm:flex items-center gap-12">
           {NAV_LINKS.map((link) => (
             <a
-              className="text-gray hover:text-slate-200 cursor-pointer transition-all"
+              className="text-gray hover:text-slate-200 cursor-pointer transition-all text-sm"
               href="/"
             >
               {link}
